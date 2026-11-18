@@ -1,0 +1,16 @@
+file,sheet,records,columns,missing_values,duplicate_id_count
+VELoop_Rewards_Data_01.xlsx,Users_1000_Clean,1000,27,953,0
+VELoop_Rewards_Data_01.xlsx,Users_Messy_Audit,1008,28,966,8
+VELoop_Rewards_Data_01.xlsx,Data_Dictionary,25,5,0,0
+VELoop_Rewards_Data_01.xlsx,Synthetic_Summary,8,2,0,0
+VELoop_Rewards_Data_01.xlsx,README_Data_Status,7,2,0,0
+VELOOP_Simulated_User_Behavior_1000.xlsx,01_Users_1000,1000,16,846,0
+VELOOP_Simulated_User_Behavior_1000.xlsx,02_Sessions,7913,12,466,6929
+VELOOP_Simulated_User_Behavior_1000.xlsx,03_Feature_Events,35704,13,0,62813
+VELOOP_Simulated_User_Behavior_1000.xlsx,04_Daily_Activity,6667,17,0,5683
+VELOOP_Simulated_User_Behavior_1000.xlsx,05_Task_Activity,9846,12,10494,14096
+VELOOP_Simulated_User_Behavior_1000.xlsx,06_Milestones,4799,6,40,5349
+VELOOP_Simulated_User_Behavior_1000.xlsx,07_Feature_Usage,15,7,0,0
+VELOOP_Simulated_User_Behavior_1000.xlsx,08_Data_Dictionary,26,7,0,0
+VELOOP_Simulated_User_Behavior_1000.xlsx,09_README_Status,15,2,0,0
+VELOOP_Simulated_User_Behavior_1000.xlsx,10_Event_Data_Quality_Audit,35714,13,0,62843

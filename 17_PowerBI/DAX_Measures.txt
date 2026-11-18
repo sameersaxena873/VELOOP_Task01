@@ -1,0 +1,10 @@
+﻿Total Users = DISTINCTCOUNT(users[user_id])
+Active Users = CALCULATE(COUNTROWS(users), users[account_status] = "Active")
+Onboarding Completion % = DIVIDE(CALCULATE(COUNTROWS(users), users[onboarding_status] = "Completed"), COUNTROWS(users)) * 100
+Total Sessions = COUNTROWS(sessions)
+Avg Session Duration (sec) = AVERAGE(sessions[session_duration_seconds])
+Task Completion % = DIVIDE(CALCULATE(COUNTROWS(task_activity), task_activity[task_status] = "Completed"), COUNTROWS(task_activity)) * 100
+Reward Credit Rate % = DIVIDE(CALCULATE(COUNTROWS(task_activity), task_activity[reward_status] = "Credited"), CALCULATE(COUNTROWS(task_activity), task_activity[task_status] = "Completed")) * 100
+Total Events = COUNTROWS(feature_events)
+Milestones Reached = COUNTROWS(milestones)
+

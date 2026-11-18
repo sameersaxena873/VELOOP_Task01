@@ -1,0 +1,8 @@
+rule,description,severity,records
+BR-01,session_end is before session_start,High,0
+BR-02,Negative session_duration_seconds,High,0
+BR-03,Sessions with user_id not in Users sheet,Critical,0
+BR-04,Events with session_id not in Sessions sheet,High,0
+BR-05,Task activity for users with onboarding Not Started,High,1497
+BR-06,Task activity for suspended or pending accounts,High,1456
+BR-07,Reward Credited but task not completed,Critical,0
