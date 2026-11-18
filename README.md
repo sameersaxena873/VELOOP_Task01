@@ -1,4 +1,5 @@
 # VELOOP Rewards — Data Analyst Task 01
+![VELOOP Dashboard Preview](dashboard_preview.png)
 
 Product Analytics, Data Readiness & Data Management Blueprint.
 
